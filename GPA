@@ -1,0 +1,9 @@
+# Prompt the user for GPA, height, and weight
+gpa = float(input("Enter your GPA: "))
+height = float(input("Enter your height: "))
+weight = float(input("Enter your weight: "))
+
+# Print the values formatted to two decimal places
+print(f"GPA: {gpa:.2f}")
+print(f"Height: {height:.2f}")
+print(f"Weight: {weight:.2f}")
